@@ -1,0 +1,7 @@
+{# templates/bonjour.html.twig #}
+{% extends 'base.html.twig' %}
+{% block body %}<h1>Bonjour
+    {% if nom is defined %}
+        {{ nom }}
+    {% endif %}</h1>
+{% endblock %}
